@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -9,7 +8,32 @@ template<typename type> void print_value(type val)
 {
     cout << val << endl;
 }
+/*
+void print_value(int x)
+{
+    cout << x << endl;
+}
 
+void print_value(float x)
+{
+    cout << x << endl;
+}
+
+void print_value(double x)
+{
+    cout << x << endl;
+}
+
+void print_value(bool x)
+{
+    cout << x << endl;
+}
+
+void print_value(char* x)
+{
+    cout << x << endl;
+}
+*/
 int main()
 {
     /*
