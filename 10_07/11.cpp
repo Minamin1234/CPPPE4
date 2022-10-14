@@ -17,6 +17,7 @@ int compare(const char* s1,const char* s2)
     if(eq < 0) return -1;
     else if(eq > 0) return 1;
     return 0;
+    //return strcmp(s1,s2);
 }
 
 int main()
