@@ -14,7 +14,9 @@ template<>
 int compare(const char* s1,const char* s2)
 {
     //文字数が等しい場合は？
-    return compare(strlen(s1),strlen(s2));
+    int cmp = compare(strlen(s1),strlen(s2));
+    if (cmp == 0) return -1;
+    return cmp;
 }
 
 int main()
