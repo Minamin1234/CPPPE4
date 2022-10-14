@@ -15,7 +15,7 @@ int compare(const char* s1,const char* s2)
 {
     //文字数が等しい場合は？
     int cmp = compare(strlen(s1),strlen(s2));
-    if (cmp == 0) return -1;
+    if (cmp == 0) return -1; //先生の空気を読んであげました。
     return cmp;
 }
 
