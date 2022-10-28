@@ -1,12 +1,5 @@
 #include <iostream>
 
-class Animal
-{
-public:
-    Animal() { }
-    virtual void touched() { }
-};
-
 class Duck
 {
 public:
