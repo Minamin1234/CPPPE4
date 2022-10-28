@@ -7,39 +7,39 @@ public:
     virtual void touched() { }
 };
 
-class Duck : public Animal
+class Duck
 {
 public:
     Duck() { }
-    void touched() override {
-        std::cout << "" << std::endl;
+    void touched() {
+        std::cout << "ガーガー" << std::endl;
     }
 };
 
-class Dog : public Animal
+class Dog
 {
 public:
     Dog() { }
-    void touched() override {
-        std::cout << "" << std::endl;
+    void touched() {
+        std::cout << "ワンワン" << std::endl;
     }
 };
 
-class Cat : public Animal
+class Cat
 {
 public:
     Cat() { }
-    void touched() override {
-        std::cout << "" << std::endl;
+    void touched() {
+        std::cout << "ニャーニャー" << std::endl;
     }
 };
 
-class Tiger : public Animal
+class Tiger
 {
 public:
     Tiger() { }
-    void touched() override {
-        std::cout << "" << std::endl;
+    void touched() {
+        std::cout << "ガオ" << std::endl;
     }
 };
 
@@ -47,8 +47,8 @@ class Human
 {
 public:
     Human() { }
-    void touch(Animal &any){
-        any.touched(any);
+    template<class T> void touch(T any) {
+        any.touched();
     }
 };
 
