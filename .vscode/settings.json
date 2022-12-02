@@ -76,6 +76,9 @@
         "utility": "cpp",
         "stop_token": "cpp",
         "cinttypes": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "__tree": "cpp",
+        "iomanip": "cpp",
+        "map": "cpp"
     }
 }
