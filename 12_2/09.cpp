@@ -13,11 +13,8 @@ Type lexial_cast(Source src) {
 }
 
 int main() {
-    std::stringstream ss;
-
-    ss << "Hello, world" << std::endl;
-    ss << 1 << "," << 2 << "," << 3 << std::endl;
-
-    std::string dest = ss.str();
+    std::string s = lexial_cast<std::string>(120);
+    int x = lexial_cast<int>("123");
+    std::cout << "s: " << s << ",x: " << x << std::endl;
     return 0;
 }

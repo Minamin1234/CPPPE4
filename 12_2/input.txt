@@ -1,2 +1,2 @@
-Hello World!
-Hello Minamin!
+hello, world! this is a sample file.
+count alphabets and numbers, and show their distribution.
