@@ -79,6 +79,10 @@
         "stack": "cpp",
         "__tree": "cpp",
         "iomanip": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "__locale": "cpp",
+        "codecvt": "cpp",
+        "fstream": "cpp",
+        "set": "cpp"
     }
 }
